@@ -1,12 +1,9 @@
 ########################################################################
 # CMP7205 Applied Statistics - GTA V Worldwide Sales & Player Analytics
 # Full analysis script covering RQ1-RQ4 + 8 report-ready figures
-#
-# BEFORE RUNNING:
-# 1. setwd() to the folder containing the CSV file
-# 2. Install packages once:
-#    install.packages(c("tidyverse","car","rstatix","broom","ggpubr","corrplot","moments"))
 ########################################################################
+setwd("D:\OneDrive\Desktop\Applied Statistics - CMP")
+install.packages(c("tidyverse","car","rstatix","broom","ggpubr","corrplot","moments"))
 
 library(tidyverse)
 library(car)
