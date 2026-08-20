@@ -59,7 +59,7 @@ ggsave("Fig1_yearly_sales_trend.png", fig1, width = 8, height = 5, dpi = 300)
 # ========================================================================
 # FIGURE 2 (Datasets section):
 # Regional distribution of sales - shows dataset composition, supports
-# your Section 3 dataset description with a visual instead of just text.
+# Section 3 dataset description with a visual instead of just text.
 # ========================================================================
 
 regional <- df %>%
